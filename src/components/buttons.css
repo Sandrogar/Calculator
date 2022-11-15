@@ -1,0 +1,70 @@
+/* .btn-panel {
+  display: grid;
+  grid-template-areas:
+    "ac plus-minus percent divs"
+    "seven eight nine mylt"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+  grid-gap: 7px;
+} */
+
+/* 
+Заменить все размеры на проценты
+*/
+.btn-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: content;
+  margin: 15px;
+  gap: 10px;
+}
+.btn1str {
+  display: flex;
+  gap: 10px;
+}
+.btn2str {
+  display: flex;
+  gap: 10px;
+}
+.btn3str {
+  display: flex;
+  gap: 10px;
+}
+.btn4str {
+  display: flex;
+  gap: 10px;
+}
+.btn5str {
+  display: flex;
+  gap: 10px;
+  width: 270px;
+}
+.btn.zero {
+  width: 130px;
+  border-radius: 40%;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.btn:hover {
+  filter: brightness(120%);
+}
+.btn:active {
+  filter: brightness(90%);
+}
+.btn.bg-grey {
+  background: #a6a6a6;
+}
+.btn.bg-orange {
+  background: #ff9501;
+}
